@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Lora', serif;
+    box-sizing: border-box;
+}
+
+#navbar {
+    height: 100px;
+    display:flexbox;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+#brand-name{
+    color: black;
+    padding-left: 20px;
+    font-size: 60px;
+    float: left;
+}
+
+.hamburger-menu-button{
+    float: right;
+    width: 50px;
+    height: 50px;
+}
+
+/*Page 1*/
+
+#page1{
+    height: 700px;
+}
+
+#main-page-content{
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    padding-left: 100px;
+    margin-top: 300px;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+#img1-container{
+    box-sizing: border-box;
+    float: right;
+    margin-top: -50px;
+    padding-right: 80px;
+    width: 50%;
+    height: 700px;
+    
+}
+
+#img1{
+    width: 700px;
+    height: 700px;
+    
+    
+}
+
+/*Page 2*/
+#page2{
+    height: 700px;
+}
+
+#page2header{
+    font-size: 80px;
+    text-align: center;
+    
+}
+
+.card-stack{
+    text-align: center;
+}
+
+.card{
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+
+.wd-img, .ma-img,.ec-img, .sd-img{
+    width: 300px;
+    height: 300px;
+}
